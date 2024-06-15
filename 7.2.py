@@ -1,0 +1,11 @@
+def automorphic(n):
+
+    a=str(n*n)
+
+    if(int(a[-1])==n):
+
+        return("Automorphic")
+
+    else:
+
+        return("Not Automorphic")
